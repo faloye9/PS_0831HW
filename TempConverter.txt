@@ -1,0 +1,8 @@
+def convert():
+	run = 'y'
+	while run == 'y':
+		temp = int(input("What is Fahrenheit temperature for me to convert to Celsius?"))
+		cel = ((temp - 32)*(5/9))
+		print (temp, " is ", cel, " in Celsius!")
+		run = input("Want to convert another Fahrenheit temperature? Enter ‘y’ or ‘n’.")
+convert()
